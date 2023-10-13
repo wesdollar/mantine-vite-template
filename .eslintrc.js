@@ -1,9 +1,10 @@
 module.exports = {
-  extends: ['mantine'],
+  extends: ["mantine"],
   parserOptions: {
-    project: './tsconfig.json',
+    project: "./tsconfig.json",
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/quotes": "off",
   },
 };

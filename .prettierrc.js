@@ -1,1 +1,6 @@
-module.exports = require('eslint-config-mantine/.prettierrc.js');
+const config = require('eslint-config-mantine/.prettierrc.js');
+
+module.exports = {
+  ...config,
+  singleQuote: false,
+}
